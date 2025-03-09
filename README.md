@@ -33,15 +33,6 @@ This project follows Clean Architecture principles, separating the codebase into
 - get_it
 - shimmer
 
-## API Reference
-
-This app uses the [ReqRes API](https://reqres.in/) to fetch user data.
-
-## Testing
-
-Run the tests with:
-flutter test
-
 ## Error Handling
 
 The app handles various error scenarios:
@@ -50,3 +41,25 @@ The app handles various error scenarios:
 - Empty responses
 - No connectivity
 - Server errors
+
+## API Reference
+
+This app uses the [ReqRes API](https://reqres.in/) to fetch user data.
+
+### Installation
+
+1. Clone the repository:
+   git clone https://github.com/sarmedaqua/user_list_app.git
+2. Navigate to the project directory:
+   cd user_list_app
+3. Install dependencies:
+   flutter pub get
+4. Run the app:
+   flutter run
+
+## Testing
+
+Run the tests with:
+flutter test
+
+
